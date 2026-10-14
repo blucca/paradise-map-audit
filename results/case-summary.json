@@ -1,0 +1,23 @@
+{
+  "snapshot": "2026-08-19.0",
+  "case_address": "5974 Pentz Rd, Paradise, CA 95969",
+  "healthcare_records": 5,
+  "all_marked_open": true,
+  "geoids": [
+    "06007002000",
+    "06007002200"
+  ],
+  "group_max_span_km": 6.035234277856487,
+  "same_name_pair_km": 6.005020050034128,
+  "hospital_point_to_skyway_health_center_metres": 40.80809070489982,
+  "emergency_candidates_before_flag": 1,
+  "capability_conflict_review_queue": [
+    "1cdcf1b2-9a30-4c77-b5ff-bee7d99f652e"
+  ],
+  "emergency_candidates_after_flag": [],
+  "confidence_threshold": 0.95,
+  "area_population_2020": 5126,
+  "closure_source": "https://en.wikipedia.org/w/index.php?title=Adventist_Health_Feather_River&oldid=1358422327",
+  "closure_license": "CC-BY-SA-4.0",
+  "candidate_csv_rows": 9379
+}

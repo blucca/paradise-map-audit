@@ -1,0 +1,13 @@
+{
+  "places": 116897,
+  "tracts": 591,
+  "matched_places": 116897,
+  "unambiguous_places": 116893,
+  "boundary_places": 4,
+  "unmatched_places": 0,
+  "tracts_with_places": 591,
+  "versions": {
+    "duckdb": "1.5.6",
+    "shapely": "2.2.0"
+  }
+}

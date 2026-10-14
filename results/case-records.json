@@ -1,0 +1,283 @@
+[
+  {
+    "GEOID": "06007002000",
+    "id": "18f10c37-fff6-41c3-8a06-ecebd71697de",
+    "name": "The Birth Day Place",
+    "category": "hospital",
+    "alternate": [
+      "health_and_medical",
+      "pharmacy"
+    ],
+    "basic_category": "hospital",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "lon": -121.571585,
+    "lat": 39.756668,
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969-5509",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "422554247789765",
+        "update_time": "2026-08-10T00:00:00.000Z",
+        "confidence": 0.46445658802986145,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-08-10"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-08-14T19:46:07Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-08-14"
+      },
+      {
+        "property": "/properties/operating_status",
+        "dataset": "Overture-signals",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "5d636eaf-bdbc-40e7-90b2-5746bb3f88e7",
+        "update_time": "2026-08-10T22:54:24Z",
+        "confidence": 1.0,
+        "between": null,
+        "provider": "overture",
+        "resource": "operating_status_signal",
+        "version": "2026-08-10"
+      }
+    ]
+  },
+  {
+    "GEOID": "06007002200",
+    "id": "1cdcf1b2-9a30-4c77-b5ff-bee7d99f652e",
+    "name": "Adventist Health Feather River",
+    "category": "hospital",
+    "alternate": [
+      "emergency_room",
+      "health_and_medical"
+    ],
+    "basic_category": "hospital",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "lon": -121.64022415,
+    "lat": 39.74639686,
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "284306855448830",
+        "update_time": "2026-08-10T00:00:00.000Z",
+        "confidence": 0.9940091371536255,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-08-10"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-08-14T19:46:07Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-08-14"
+      },
+      {
+        "property": "/properties/operating_status",
+        "dataset": "Overture-signals",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "d4ef6243-f1ef-4273-97e6-4562fdde6900",
+        "update_time": "2026-07-20T15:59:09Z",
+        "confidence": 1.0,
+        "between": null,
+        "provider": "overture",
+        "resource": "operating_status_signal",
+        "version": "2026-07-20"
+      }
+    ]
+  },
+  {
+    "GEOID": "06007002000",
+    "id": "2b661b69-96b2-4fe1-ae66-59dcbb5f00ab",
+    "name": "Feather River Hospital Clinical Laboratories",
+    "category": "hospital",
+    "alternate": null,
+    "basic_category": "hospital",
+    "operating_status": "open",
+    "confidence": 0.35,
+    "lon": -121.5709347,
+    "lat": 39.7567917,
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969-5509",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "sources": [
+      {
+        "property": "",
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "106578390",
+        "update_time": "2026-08-13T13:23:42.875Z",
+        "confidence": 0.35,
+        "between": null,
+        "provider": "brightquery",
+        "resource": "brightquery",
+        "version": "2026-08-10"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-08-14T19:46:07Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "GEOID": "06007002000",
+    "id": "67c5382d-01a6-4b3c-a694-d87499977de2",
+    "name": "Paradise Anesthesia Associates",
+    "category": "health_and_medical",
+    "alternate": null,
+    "basic_category": "health_care",
+    "operating_status": "open",
+    "confidence": 0.85,
+    "lon": -121.5709347,
+    "lat": 39.7567917,
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969-5509",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "sources": [
+      {
+        "property": "",
+        "dataset": "BrightQuery",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "382786874",
+        "update_time": "2026-08-13T13:23:42.875Z",
+        "confidence": 0.85,
+        "between": null,
+        "provider": "brightquery",
+        "resource": "brightquery",
+        "version": "2026-08-10"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-08-14T19:46:07Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-08-14"
+      }
+    ]
+  },
+  {
+    "GEOID": "06007002000",
+    "id": "eada4f82-9e93-4a1c-a9bd-381a7cef2f02",
+    "name": "Adventist Health Feather River",
+    "category": "home_health_care",
+    "alternate": [
+      "hospital",
+      "personal_care_service",
+      "health_and_medical"
+    ],
+    "basic_category": "medical_service",
+    "operating_status": "open",
+    "confidence": 0.9199122190475464,
+    "lon": -121.571342468262,
+    "lat": 39.7569770812988,
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "1970324838961669",
+        "update_time": "2019-05-01T16:39:57.567Z",
+        "confidence": 0.85,
+        "between": null,
+        "provider": "microsoft",
+        "resource": "microsoft",
+        "version": "2025-10-20"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-08-14T19:46:07Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-08-14"
+      },
+      {
+        "property": "/properties/operating_status",
+        "dataset": "Overture-signals",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "f41e4027-3f4c-40e8-9ce8-459d45ff402e",
+        "update_time": "2026-08-10T22:54:24Z",
+        "confidence": 1.0,
+        "between": null,
+        "provider": "overture",
+        "resource": "operating_status_signal",
+        "version": "2026-08-10"
+      }
+    ]
+  }
+]

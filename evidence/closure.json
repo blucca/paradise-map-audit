@@ -1,0 +1,24 @@
+{
+  "source_title": "Adventist Health Feather River",
+  "author": "Wikipedia contributors",
+  "revision_id": 1358422327,
+  "revision_at": "2026-06-08T16:05:54Z",
+  "retrieved_at": "2026-10-15",
+  "url": "https://en.wikipedia.org/w/index.php?title=Adventist_Health_Feather_River&oldid=1358422327",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "excerpt": "Emergency department \u2014 Closed",
+  "extraction": "Manually reviewed infobox statement. The hospital-closure fact is matched to the Overture hospital identity; current outpatient services retain their distinct scope.",
+  "matched_emergency_record_id": "1cdcf1b2-9a30-4c77-b5ff-bee7d99f652e",
+  "identity_coordinate_source": {
+    "author": "Wikidata contributors",
+    "id": "Q5439589",
+    "revision_id": 2541624292,
+    "url": "https://www.wikidata.org/w/index.php?title=Q5439589&oldid=2541624292",
+    "license": "CC0-1.0",
+    "coordinate": [
+      39.7569,
+      -121.571
+    ]
+  }
+}

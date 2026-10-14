@@ -1,0 +1,49 @@
+{
+  "GEOID": "06007002200",
+  "id": "d5a3c5d0-5a2d-481f-9e4b-c7342ebd14c3",
+  "name": "Feather River Health Center",
+  "category": "diagnostic_services",
+  "alternate": [
+    "health_and_medical"
+  ],
+  "basic_category": "diagnostics_imaging_or_lab_service",
+  "operating_status": null,
+  "confidence": 0.85,
+  "lon": -121.640701293945,
+  "lat": 39.7464065551758,
+  "addresses": [
+    {
+      "freeform": "5125 Skyway Rd, Lower Level",
+      "locality": "Paradise",
+      "postcode": "95969",
+      "region": "CA",
+      "country": "US"
+    }
+  ],
+  "sources": [
+    {
+      "property": "",
+      "dataset": "Microsoft",
+      "license": "CDLA-Permissive-2.0",
+      "record_id": "844424932204201",
+      "update_time": "2018-10-05T03:24:42.600Z",
+      "confidence": 0.85,
+      "between": null,
+      "provider": "microsoft",
+      "resource": "microsoft",
+      "version": "2025-10-20"
+    },
+    {
+      "property": "/properties/confidence",
+      "dataset": "Overture",
+      "license": "CDLA-Permissive-2.0",
+      "record_id": null,
+      "update_time": "2026-08-14T19:46:07Z",
+      "confidence": null,
+      "between": null,
+      "provider": "overture",
+      "resource": "confidence_calculation",
+      "version": "2026-08-14"
+    }
+  ]
+}

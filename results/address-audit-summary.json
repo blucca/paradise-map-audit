@@ -1,0 +1,19 @@
+{
+  "health_records_with_address": 13323,
+  "address_groups_with_2plus_records": 2101,
+  "address_groups_span_over_1km": 40,
+  "cohort": "modal tract Rural, 0.25 <= SVI < 0.5",
+  "cohort_groups": 28,
+  "cohort_span_over_1km": 4,
+  "cohort_median_span_metres": 31.4055874821199,
+  "pentz_5974_records": 5,
+  "pentz_5974_span_km": 6.035234277856487,
+  "exploratory_fire_comparison": {
+    "fire_groups": 9,
+    "fire_over_1km": 1,
+    "comparison_groups": 19,
+    "comparison_over_1km": 3,
+    "two_sided_fisher_p": 1.0,
+    "group_label_rule": "modal GEOID; ties use first sorted GEOID"
+  }
+}

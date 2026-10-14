@@ -1,0 +1,64 @@
+[
+  {
+    "GEOID": "06007002200",
+    "id": "1cdcf1b2-9a30-4c77-b5ff-bee7d99f652e",
+    "name": "Adventist Health Feather River",
+    "category": "hospital",
+    "alternate": [
+      "emergency_room",
+      "health_and_medical"
+    ],
+    "basic_category": "hospital",
+    "operating_status": "open",
+    "confidence": 0.9902192950248718,
+    "lon": -121.64022415,
+    "lat": 39.74639686,
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "284306855448830",
+        "update_time": "2026-08-10T00:00:00.000Z",
+        "confidence": 0.9940091371536255,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-08-10"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-08-14T19:46:07Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-08-14"
+      },
+      {
+        "property": "/properties/operating_status",
+        "dataset": "Overture-signals",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "d4ef6243-f1ef-4273-97e6-4562fdde6900",
+        "update_time": "2026-07-20T15:59:09Z",
+        "confidence": 1.0,
+        "between": null,
+        "provider": "overture",
+        "resource": "operating_status_signal",
+        "version": "2026-07-20"
+      }
+    ]
+  }
+]

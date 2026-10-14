@@ -1,0 +1,52 @@
+[
+  {
+    "GEOID": "06007001800",
+    "pop_total": 840,
+    "ur_class": "Rural",
+    "svi_overall": 0.7941,
+    "svi_year": 2022,
+    "cvi_overall": 0.548071843686945,
+    "mtbs_wildfire_burned_pct_land": 100.00000000000004,
+    "mtbs_wildfire_last_year": 2018.0
+  },
+  {
+    "GEOID": "06007001900",
+    "pop_total": 675,
+    "ur_class": "Rural",
+    "svi_overall": 0.4303,
+    "svi_year": 2022,
+    "cvi_overall": 0.50032156183675,
+    "mtbs_wildfire_burned_pct_land": 100.34906093532196,
+    "mtbs_wildfire_last_year": 2018.0
+  },
+  {
+    "GEOID": "06007002000",
+    "pop_total": 886,
+    "ur_class": "Rural",
+    "svi_overall": 0.2804,
+    "svi_year": 2022,
+    "cvi_overall": 0.49219771973977,
+    "mtbs_wildfire_burned_pct_land": 100.03091468259105,
+    "mtbs_wildfire_last_year": 2018.0
+  },
+  {
+    "GEOID": "06007002100",
+    "pop_total": 926,
+    "ur_class": "Rural",
+    "svi_overall": 0.8426,
+    "svi_year": 2022,
+    "cvi_overall": 0.521840247008401,
+    "mtbs_wildfire_burned_pct_land": 100.1048772244015,
+    "mtbs_wildfire_last_year": 2018.0
+  },
+  {
+    "GEOID": "06007002200",
+    "pop_total": 1799,
+    "ur_class": "Rural",
+    "svi_overall": 0.2269,
+    "svi_year": 2022,
+    "cvi_overall": 0.5427774622470717,
+    "mtbs_wildfire_burned_pct_land": 153.75399315989537,
+    "mtbs_wildfire_last_year": 2018.0
+  }
+]
