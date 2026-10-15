@@ -1,0 +1,183 @@
+{
+  "purpose": "Current-release follow-up; August challenge calculations retain their original inputs",
+  "release": "2026-09-23.1",
+  "retrieved_at": "2026-10-15T00:31:27.345724+00:00",
+  "source_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-09-23.1/theme=places/type=place/part-00002-c0c1dd40-1cc6-5636-81da-0df43a88fa9d-c000.zstd.parquet",
+  "catalog_url": "https://stac.overturemaps.org/catalog.json",
+  "registry": {
+    "id": "1cdcf1b2-9a30-4c77-b5ff-bee7d99f652e",
+    "version": 2,
+    "first_seen": "2026-09-23.0",
+    "last_seen": "2026-09-23.1",
+    "last_changed": "2026-09-23.0",
+    "path": "theme=places/type=place/part-00002-c0c1dd40-1cc6-5636-81da-0df43a88fa9d-c000.zstd.parquet",
+    "bbox": {
+      "xmin": -121.6402359008789,
+      "xmax": -121.64022064208984,
+      "ymin": 39.746395111083984,
+      "ymax": 39.746402740478516
+    }
+  },
+  "main_feature": {
+    "id": "1cdcf1b2-9a30-4c77-b5ff-bee7d99f652e",
+    "confidence": 0.9902192950248718,
+    "websites": [
+      "http://AdventistHealthFeatherRiver.org/"
+    ],
+    "emails": null,
+    "socials": [
+      "https://www.facebook.com/284306855448830"
+    ],
+    "phones": [
+      "+15308722000"
+    ],
+    "brand": {
+      "wikidata": null,
+      "names": {
+        "primary": "Adventist Health",
+        "common": null,
+        "rules": null
+      }
+    },
+    "addresses": [
+      {
+        "freeform": "5974 Pentz Rd",
+        "locality": "Paradise",
+        "postcode": "95969",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "names": {
+      "primary": "Adventist Health Feather River",
+      "common": null,
+      "rules": null
+    },
+    "sources": [
+      {
+        "property": "",
+        "dataset": "meta",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "284306855448830",
+        "update_time": "2026-09-14T00:00:00.000Z",
+        "confidence": 0.993854820728302,
+        "between": null,
+        "provider": "meta",
+        "resource": "meta",
+        "version": "2026-09-14"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      },
+      {
+        "property": "/properties/operating_status",
+        "dataset": "Overture-signals",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "58dddfef-25ac-48d6-8b88-87a268adfd2c",
+        "update_time": "2026-09-14T15:43:16Z",
+        "confidence": 1.0,
+        "between": null,
+        "provider": "overture",
+        "resource": "operating_status_signal",
+        "version": "2026-09-14"
+      }
+    ],
+    "operating_status": "open",
+    "basic_category": "hospital",
+    "taxonomy": {
+      "primary": "hospital",
+      "hierarchy": [
+        "health_care",
+        "hospital"
+      ],
+      "alternates": null
+    },
+    "version": 2,
+    "bbox": {
+      "xmin": -121.6402359008789,
+      "xmax": -121.64022064208984,
+      "ymin": 39.746395111083984,
+      "ymax": 39.746402740478516
+    }
+  },
+  "comparison_retrieved_at": "2026-10-15T00:32:58.067924+00:00",
+  "comparison_feature": {
+    "id": "d5a3c5d0-5a2d-481f-9e4b-c7342ebd14c3",
+    "names": {
+      "primary": "Feather River Health Center",
+      "common": null,
+      "rules": null
+    },
+    "taxonomy": {
+      "primary": "doctors_office",
+      "hierarchy": [
+        "health_care",
+        "outpatient_care_facility",
+        "diagnostics_imaging_or_lab_service",
+        "doctors_office"
+      ],
+      "alternates": null
+    },
+    "addresses": [
+      {
+        "freeform": "5125 Skyway Rd, Lower Level",
+        "locality": "Paradise",
+        "postcode": "95969",
+        "region": "CA",
+        "country": "US"
+      }
+    ],
+    "operating_status": null,
+    "confidence": 0.85,
+    "sources": [
+      {
+        "property": "",
+        "dataset": "Microsoft",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": "844424932204201",
+        "update_time": "2018-10-05T03:24:42.600Z",
+        "confidence": 0.85,
+        "between": null,
+        "provider": "microsoft",
+        "resource": "microsoft",
+        "version": "2025-10-20"
+      },
+      {
+        "property": "/properties/confidence",
+        "dataset": "Overture",
+        "license": "CDLA-Permissive-2.0",
+        "record_id": null,
+        "update_time": "2026-09-17T22:52:12Z",
+        "confidence": null,
+        "between": null,
+        "provider": "overture",
+        "resource": "confidence_calculation",
+        "version": "2026-09-17"
+      }
+    ],
+    "bbox": {
+      "xmin": -121.64070129394531,
+      "xmax": -121.64068603515625,
+      "ymin": 39.74640655517578,
+      "ymax": 39.74641036987305
+    }
+  },
+  "attribution": "Overture Maps Foundation, Meta and Microsoft; provider-level attribution retained in sources",
+  "license": "CDLA-Permissive-2.0",
+  "license_file": "CDLA-Permissive-2.0.txt",
+  "license_source": "https://cdla.dev/permissive-2-0/",
+  "upstream_report": "https://github.com/OvertureMaps/data/issues/583",
+  "release_difference": {
+    "2026-08-19.0": "categories.alternate contains emergency_room",
+    "2026-09-23.1": "taxonomy.primary is hospital; taxonomy.alternates is null"
+  }
+}

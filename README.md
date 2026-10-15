@@ -7,6 +7,7 @@ A reproducible Mapping Equity case: five healthcare records share one street add
 - [Exact source records](results/case-records.json)
 - [Input provenance and licenses](evidence/input-manifest.json)
 - [Licensed closure evidence](evidence/closure.json)
+- [Current-release source check](evidence/current-release.json) and [upstream correction request](https://github.com/OvertureMaps/data/issues/583)
 
 ## Run
 

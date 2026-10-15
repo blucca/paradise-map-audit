@@ -16,6 +16,8 @@ The openly licensed hospital-history source identifies its emergency department 
 
 This is a specific post-disaster **identity, location, and service-capability conflict**. An emergency-resource query retains the obsolete capability even after applying a high existence-confidence threshold. The conflict lives at the place-record and service level, below the scorecard's tract-level coverage averages.
 
+AI assistance covered research, code drafting and review; reproduction runs in open-source Python/SQL. Code: **MIT**. Report and derived tables: **CC BY-SA 4.0**. Source-specific attribution and licensing accompany the records in `evidence/`.
+
 ![Paradise identity and service-capability conflict](results/paradise-identity.png)
 
 ## Evidence and provenance
@@ -45,6 +47,10 @@ The archived [Wikipedia revision 1358422327](https://en.wikipedia.org/w/index.ph
 ### 3. Corroborating operator context
 
 The operator's [current History](https://www.adventisthealth.org/feather-river/about-us/history/) describes the shelved hospital-rebuilding project and continuing outpatient services. Its [Rapid Care page](https://www.adventisthealth.org/feather-river/services/rapid-care/) identifies **5125 Skyway** and care for non-life-threatening issues. Its [2019 Community Health Needs Assessment, p.9](https://www.adventisthealth.org/documents/feather-river/featherriver-2019-communityhealthneedsassessment.pdf) records the hospital's closure and historical Pentz address. Retrieved **2026-10-15**. These links provide separately attributed context; the executable evidence chain uses the supplied data and the archived Wikimedia sources.
+
+### 4. Current-release follow-up
+
+In **2026-09-23.1**, a direct GERS/DuckDB check on **15 October 2026** found the same UUID still labelled `hospital`/`open`, with the Pentz address and Skyway location. Current `taxonomy.alternates` is **null**; the emergency-room finding applies to **August**. [Overture issue #583](https://github.com/OvertureMaps/data/issues/583) requests facility-level correction. [Archived September fields and registry row](https://github.com/blucca/paradise-map-audit/blob/main/evidence/current-release.json) preserve this check. The challenge calculations retain their original inputs.
 
 ## A measurable consequence for emergency-resource selection
 
@@ -96,5 +102,3 @@ The repository includes the exact supplied inputs used in the analysis, source U
 - the figure and a **9,379-row midpoint candidate CSV**.
 
 The candidate CSV assigns **0.5** to `coverage_gap_score` for every distinct GEOID in the four supplied scored-tract lists. This is a deterministic neutral baseline, with the midpoint minimizing worst-case squared error for a bounded [0,1] target. Its purpose is to associate the discovery methodology with a transparent, reproducible leaderboard entry. Model-training examples and learned parameters both have count **0**. Optional component columns are omitted. The registered platform's sample schema and upload receipt form the final submission check.
-
-All calculations use public open-source Python/SQL packages. The AI assistant supported investigation, code drafting, checking, and writing; execution uses the frozen inputs and ordinary local code. Code is MIT licensed; derived report/table material is CC BY-SA 4.0 with the source-specific attributions in `evidence/input-manifest.json` and `evidence/closure.json`.
