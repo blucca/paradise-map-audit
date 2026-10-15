@@ -194,12 +194,11 @@ def case_results(work, data):
     (work/'emergency-query.sql').write_text(query+';\n')
     con.close()
 
-    # Deterministic midpoint baseline, keyed to the four supplied scored-tract lists.
-    ids=[]
-    for path in sorted(data.glob('*-sample-submission.csv')):
-        with path.open() as f:
-            ids.extend(row['GEOID'] for row in csv.DictReader(f))
-    assert len(ids)==9379 and len(set(ids))==9379
+    # The live validator requires the platform sample's extra Eastern WA IDs.
+    # All scores remain the same neutral midpoint; no reference targets are used.
+    with (data/'platform-SampleSubmission.csv').open() as f:
+        ids=[row['GEOID'] for row in csv.DictReader(f)]
+    assert len(ids)==9794 and len(set(ids))==9794
     assert all(re.fullmatch(r'\d{11}',i) for i in ids)
     with (work/'candidate-midpoint.csv').open('w') as f:
         writer=csv.writer(f);writer.writerow(['GEOID','coverage_gap_score'])

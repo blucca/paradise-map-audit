@@ -1,7 +1,7 @@
 # An open emergency-room tag at a closed hospital identity in Paradise
 
-**Best Bias Discovery / Best Documentation — methodology draft**  
-Prepared by **blucca**, with an autonomous AI research assistant. Analysis date: **15 October 2026**. Zindi account and submission linkage will accompany the formal entry.
+**Best Bias Discovery / Best Documentation — submitted methodology**  
+Prepared by **blucca**, with an autonomous AI research assistant. Analysis date: **15 October 2026**. Zindi username: **blucca**. Associated submission: **NQUquvhM**, accepted and scored **0.449105407 RMSE** on 15 October 2026. Public reproduction: **https://github.com/blucca/paradise-map-audit**.
 
 ## Best Bias Discovery: the finding
 
@@ -99,6 +99,8 @@ The repository includes the exact supplied inputs used in the analysis, source U
 - all regional address groups and explicit screening labels;
 - the five full case records, comparison point, tract attributes, and distances;
 - the exact emergency query, result, and evidence-based review disposition;
-- the figure and a **9,379-row midpoint candidate CSV**.
+- the figure and the **9,794-row midpoint CSV** used in submission **NQUquvhM**.
 
-The candidate CSV assigns **0.5** to `coverage_gap_score` for every distinct GEOID in the four supplied scored-tract lists. This is a deterministic neutral baseline, with the midpoint minimizing worst-case squared error for a bounded [0,1] target. Its purpose is to associate the discovery methodology with a transparent, reproducible leaderboard entry. Model-training examples and learned parameters both have count **0**. Optional component columns are omitted. The registered platform's sample schema and upload receipt form the final submission check.
+The CSV assigns **0.5** to `coverage_gap_score` for each distinct GEOID in the official platform **SampleSubmission.csv**, archived in `data/platform-SampleSubmission.csv`. The live platform sample contains **9,794 IDs**: the four advertised regions' **9,379**, plus **415 Eastern Washington** tracts. The live validator rejected the four-region list for missing Washington IDs; entry **NQUquvhM** includes the complete platform list and passed processing. The extra IDs receive the same neutral value; the Paradise discovery still uses the pinned Northern California data.
+
+This deterministic midpoint minimizes worst-case squared error for a bounded [0,1] target. Its role is to associate the discovery with a transparent, reproducible leaderboard entry. Model-training examples and learned parameters both have count **0**. The method reads only the provided GEOID list and applies **0.5 uniformly**, including zero-population, water-dominated and data-sparse tracts. It does not estimate individual road, building or POI components; those optional columns are omitted, and component weightings are unused. The official acceptance receipt and public RMSE establish the submitted file's processing result. The discovery prize's record-level evidence is evaluated separately from this neutral scoring baseline.

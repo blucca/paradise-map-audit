@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-10-15T13:18:59.928026+00:00",
+  "submissions": [
+    {
+      "id": "NQUquvhM",
+      "created_at": "2026-10-15T13:16:36.062Z",
+      "status": "successful",
+      "public_score": 0.449105407,
+      "status_description": null,
+      "filename": "candidate-midpoint.csv",
+      "chosen": false,
+      "public_scoring_rubric": {
+        "wildfire": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "Wildfire Hazard",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "heat_summer": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "Summer Heat",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "urban_rural": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "Rural vs Urban",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "drought_summer": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "Summer Drought",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "drought_winter": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "Winter Drought",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "intersectional": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "High Hazard + High Vulnerability",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "high_cvi_vs_low_cvi": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "High Climate Vulnerability",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "high_svi_vs_low_svi": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "High Social Vulnerability",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        },
+        "tribal_vs_nontribal": {
+          "reason": null,
+          "status": "ok",
+          "bias_indicator": "Tribal vs Non-Tribal",
+          "disparity_ratio": 1.0,
+          "coverage_gap_percentage": 0.0,
+          "coverage_gap_description": "Similar"
+        }
+      }
+    }
+  ],
+  "username": "blucca",
+  "submission_list": "https://zindi.world/competitions/bias-bounty-mapping-equity-challenge/submissions",
+  "prediction": "Constant 0.5 for all 9,794 official platform-sample GEOIDs.",
+  "scorecard_interpretation": "All nine scorecard strata have disparity_ratio 1.0 because the submitted predictions are constant. The Paradise case is a separate facility-identity/capability audit."
+}
